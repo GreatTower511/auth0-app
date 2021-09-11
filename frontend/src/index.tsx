@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { Auth0Provider } from '@auth0/auth0-react';
 console.log(process.env)
 
+//https://typescript-jp.gitbook.io/deep-dive/intro/strictnullchecks
+
 ReactDOM.render(
   <Auth0Provider
     domain={process.env.REACT_APP_AUTH0_DOMAIN!}
